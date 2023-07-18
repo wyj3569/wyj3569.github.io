@@ -6,38 +6,41 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Jung Woo Young
+title: Curriculum Vitae
+
+email: wyjung0731@gmail.com
+email_title: Email
+
+phone: +82 10-7473-3569
+phone_title: Phone
+
+website: https://github.com/wyj3569
+website_title: GitHub
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+# github_username:  jekyll
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,66 +53,142 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/papago_og.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hello? My name is Jung Woo Young.
+  
+  I'm currently a senior student in Pusan Nat' University and my major is Computer Sciences and Engineering.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I'm interested in topics like convergence of Artificial Intelligence and other various systems.
+  Especially, I think the convergence of embedded systems and AI is a key for revival and democratization of AI technologies.
+
+  Now, I'm looking for a master position in Graduate School and want to study that topics.
+
+  Thank you for reading my self-introduction.
+
 
 content:
   - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: list # (options: list, text)
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      - layout: left # (options: left, right, top, top-right, top-middle)(default: left)
+        border: # Value of `weak` will display a weak border below this item. 
+                          # Any other value (or no value) means no border will be displayed
+        title: 2022 IoT-X <br>Capstone Design <br>Competition <hr>  # (eg. Company or Project name)
+        sub_title: UWB based <br>indoor real-time location tracking <br>and calling system
+        caption: (2022.05 ~ 2022.10)
+        link: https://github.com/wyj3569/IGO       # (eg. https://sproogen.github.io/modern-resume-theme)(optional)
+        link_text: GitHub Repository               # (optional: without this link will show URL as link text)
+        # additional_links: # (optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          부산대학교 공학교육혁신센터에서 주회한 경진대회에 참여하여 우수상을 시상했습니다.
+
+          해당 대회에서 저희 팀은 'UWB를 이용한 실내 실시간 위치 추적 및 호출 시스템'을 구현했습니다.
+
+          저는 팀에서 Project Manager 및 Backend-Server 개발을 담당했습니다.
+
+
+      - layout: left
+        border:
+        title: Graduation Semester <br>Capstone Design <br>Competition <hr>
+        sub_title: Wi-SUN FAN mesh network based <br>Sharing Parking Lot
+        caption: (2023.04 ~)
+        link: https://github.com/wyj3569/IGO
+        link_text: GitHub Repository
+        # additional_links: # (optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          
+        description: |
+          졸업과제로 현재 Wi-SUN FAN 네트워크를 이용한 공유 주차장 서비스를 개발중입니다.
+
+          해당 프로젝트에서 저는 Team Leader의 역할과 network programming, embedded board programming을 수행중입니다.
+
+
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        boarder:
+        title: 2022 <br>Engineering Education <br>FESTA <hr>
+        sub_title: Judgement Activity
+        caption: (2022.11)
+        link: https://www.youtube.com/channel/UCKzV6rwWuevs-7yhIeb9fHw
+        link_text: Link
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          
+        description: |
+          2022 IoT-X 캡스톤디자인 경진대회에서 상위권 입상한 팀원들은 산업통상자원부에서 주최하는 '2022 공학페스티벌 E2FESTA'에
+          공대생 심사위원으로 참여할 수 있는 기회가 주어졌습니다.
+
+          일산 킨텍스에서 열리는 해당 프로그램에 심사위원으로 참여하여 전국 대학생들의 다양하고 창의적인 작품들을 감상하고 평가함으로써
+          다양한 주제들을 간접 체험하고 아이디어를 얻을 수 있는 기회가 되었습니다.
+
+      - layout: left
+        boarder:
+        title: LG Aimers <hr>
+        sub_title: LG group's AI Education
+        caption: (2023.07 ~)
+        link: https://www.lgaimers.ai/
+        link_text: Link
+        quote: >
+          
+        description: |
+          내용
+          
+
+  - title: Certificate
+    layout: list
+    content:
+    - layout: top-middle
+      title: Engineer Big Data Analysis
+      sub_title: 
+      caption: (2023.07)
+      quote: >
+        
+      description: |
+        내용
+
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: top-middle
+        title: Pusan National University
+        sub_title: Department of Computer Sciences and Engineering
+        caption: (2018.03 ~)
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          
+        description: | 
+          As I mentioned at self-introduction, my major is CSE.
+
+          I learned not only traditional subjects such as algorithm, operation system, computer architecture but also
+          artificial intelligence, machine learning and computer vision that became more important for the 4th industrial revolution.
+
+          So I can get methodical knowledges of major.
+          
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+
 
 # Footer
 footer_show_references: true
