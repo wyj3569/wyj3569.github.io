@@ -53,7 +53,7 @@ darkmode: true
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/photo.jpg
+about_profile_image: assets/images/photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello? My name is Jung Woo Young.
   
