@@ -53,7 +53,7 @@ darkmode: true
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/papago_og.png
+about_profile_image: images/photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hello? My name is Jung Woo Young.
   
@@ -62,13 +62,13 @@ about_content: | # this will include new lines to allow paragraphs
   I'm interested in topics like convergence of Artificial Intelligence and other various systems.
   Especially, I think the convergence of embedded systems and AI is a key for revival and democratization of AI technologies.
 
-  Now, I'm looking for a master position in Graduate School and want to study that topics.
+  Now, I'm looking for a master position in Graduate School and want to study those topics.
 
   Thank you for reading my self-introduction.
 
 
 content:
-  - title: Projects # Title for the section
+  - title: Project # Title for the section
     layout: list # (options: list, text)
     content:
       - layout: left # (options: left, right, top, top-right, top-middle)(default: left)
@@ -89,16 +89,21 @@ content:
         quote: >
 
         description: | # this will include new lines to allow paragraphs
-          부산대학교 공학교육혁신센터에서 주회한 경진대회에 참여하여 우수상을 시상했습니다.
+          Our team implemented a system named "IGO" that is tracking real-time indoor location and can call between medics and patients.
 
-          해당 대회에서 저희 팀은 'UWB를 이용한 실내 실시간 위치 추적 및 호출 시스템'을 구현했습니다.
+          It was implemented by various systems such as Android, Django and embedded devices like Arduino and UWB.
 
-          저는 팀에서 Project Manager 및 Backend-Server 개발을 담당했습니다.
+          I was a software project manager and did back-end server programming.
 
+          Our team got an excellence prize at this competition.
+
+          This is a chance for me to learn more specific and practical knowledge with my major and can cultivate collaboration ability.
+
+          You can see details at the link on the left side.
 
       - layout: left
         border:
-        title: Graduation Semester <br>Capstone Design <br>Competition <hr>
+        title: Graduation Semester <br>Capstone Design <br>Term Project <hr>
         sub_title: Wi-SUN FAN mesh network based <br>Sharing Parking Lot
         caption: (2023.04 ~)
         link: https://github.com/wyj3569/IGO
@@ -113,9 +118,15 @@ content:
         quote: >
           
         description: |
-          졸업과제로 현재 Wi-SUN FAN 네트워크를 이용한 공유 주차장 서비스를 개발중입니다.
+          Our team is implementing a sharing parking lot system using Wi-SUN FAN mesh network.
 
-          해당 프로젝트에서 저는 Team Leader의 역할과 network programming, embedded board programming을 수행중입니다.
+          Wi-SUN stands for Wireless Smart Utility Network. 
+          
+          Wi-SUN is the IPv6 sub-GHz mesh network technology for smart city and smart utility applications.
+
+          I am a team leader and do network programming and embedded board programming.
+
+          You can see details at the link on the left side.
 
 
   - title: Experience
@@ -131,11 +142,16 @@ content:
         quote: >
           
         description: |
-          2022 IoT-X 캡스톤디자인 경진대회에서 상위권 입상한 팀원들은 산업통상자원부에서 주최하는 '2022 공학페스티벌 E2FESTA'에
-          공대생 심사위원으로 참여할 수 있는 기회가 주어졌습니다.
+          This is a festival for student engineers which was held at Ilsan Kintex.
 
-          일산 킨텍스에서 열리는 해당 프로그램에 심사위원으로 참여하여 전국 대학생들의 다양하고 창의적인 작품들을 감상하고 평가함으로써
-          다양한 주제들을 간접 체험하고 아이디어를 얻을 수 있는 기회가 되었습니다.
+          The people who won a high-grade prize at '2022 IoT-X Capstone Design Competition' 
+          got a chance to participate in this festival as a judgement.
+
+          There were many breathtaking and innovative works and many passionate students.
+
+          It was also a great change for me to get several interesting ideas.
+
+          You can see details at the link on the left side.
 
       - layout: left
         boarder:
@@ -176,18 +192,19 @@ content:
           As I mentioned at self-introduction, my major is CSE.
 
           I learned not only traditional subjects such as algorithm, operation system, computer architecture but also
-          artificial intelligence, machine learning and computer vision that became more important for the 4th industrial revolution.
+          artificial intelligence, machine learning and computer vision that became more important in the 4th industrial revolution.
 
           So I can get methodical knowledges of major.
           
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+    content: |
+      I think It's important to go right way though it takes a lot of time.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      I'm a person who decides carefully, but once I make a decision, I'll never give up and can do it all days.
 
+      Thank you for reading my CV.
 
 
 # Footer
