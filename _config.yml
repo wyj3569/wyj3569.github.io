@@ -62,6 +62,8 @@ about_content: | # this will include new lines to allow paragraphs
   I'm interested in topics like convergence of Artificial Intelligence and other various systems.
   Especially, I think the convergence of embedded systems and AI is a key for revival and democratization of AI technologies.
 
+  I'm doing one term project and studying mathematics and AI topics during this summer vacation.
+
   Now, I'm looking for a master position in Graduate School and want to study those topics.
 
   Thank you for reading my self-introduction.
@@ -78,7 +80,7 @@ content:
         sub_title: UWB based <br>indoor real-time location tracking <br>and calling system
         caption: (2022.05 ~ 2022.10)
         link: https://github.com/wyj3569/IGO       # (eg. https://sproogen.github.io/modern-resume-theme)(optional)
-        link_text: GitHub Repository               # (optional: without this link will show URL as link text)
+        link_text: GitHub Link               # (optional: without this link will show URL as link text)
         # additional_links: # (optional)
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
@@ -91,23 +93,23 @@ content:
         description: | # this will include new lines to allow paragraphs
           Our team implemented a system named "IGO" that is tracking real-time indoor location and can call between medics and patients.
 
-          It was implemented by various systems such as Android, Django and embedded devices like Arduino and UWB.
+          It was implemented by various systems such as Android, Django and devices like Arduino and UWB.
 
           I was a software project manager and did back-end server programming.
 
           Our team got an excellence prize at this competition.
 
-          This is a chance for me to learn more specific and practical knowledge with my major and can cultivate collaboration ability.
+          This was a chance for me to learn more specific and practical knowledge of my major and could cultivate collaboration ability.
 
-          You can see details at the link on the left side.
+          You can see details at the link.
 
       - layout: left
         border:
         title: Graduation Semester <br>Capstone Design <br>Term Project <hr>
         sub_title: Wi-SUN FAN mesh network based <br>Sharing Parking Lot
         caption: (2023.04 ~)
-        link: https://github.com/wyj3569/IGO
-        link_text: GitHub Repository
+        link: 
+        link_text: GitHub Link
         # additional_links: # (optional)
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
@@ -126,7 +128,7 @@ content:
 
           I am a team leader and do network programming and embedded board programming.
 
-          You can see details at the link on the left side.
+          You can see details at the link.
 
 
   - title: Experience
@@ -147,11 +149,11 @@ content:
           The people who won a high-grade prize at '2022 IoT-X Capstone Design Competition' 
           got a chance to participate in this festival as a judgement.
 
-          There were many breathtaking and innovative works and many passionate students.
+          There were many interesting and innovative works and many passionate students.
 
-          It was also a great change for me to get several interesting ideas.
+          It was also a great chance for me to get several interesting ideas.
 
-          You can see details at the link on the left side.
+          You can see details at the link.
 
       - layout: left
         boarder:
@@ -163,7 +165,11 @@ content:
         quote: >
           
         description: |
-          내용
+          I always want to learn more practical knowledge about AI and I got a chance to participate in 'LG Aimers' program.
+
+          This program is served by LG, one of the largest manufacturing company in Republic of Korea.
+
+          I can learn about several AI topics like supervised learning, reinforcement learning, deep learning etc.
           
 
   - title: Certificate
@@ -173,10 +179,12 @@ content:
       title: Engineer Big Data Analysis
       sub_title: 
       caption: (2023.07)
+      link: https://drive.google.com/file/d/17CVWnDekaMferuChmmjDixhQ84YzYSU9/view?usp=sharing
+      link_text: Link
       quote: >
         
       description: |
-        내용
+        
 
 
   - title: Education
@@ -186,6 +194,8 @@ content:
         title: Pusan National University
         sub_title: Department of Computer Sciences and Engineering
         caption: (2018.03 ~)
+        link:
+        link_text: 
         quote: >
           
         description: | 
