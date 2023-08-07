@@ -60,9 +60,9 @@ about_content: | # this will include new lines to allow paragraphs
   I'm currently a senior student in Pusan Nat' University and my major is Computer Sciences and Engineering.
 
   I'm interested in topics like convergence of Artificial Intelligence and other various systems.
-  Especially, I think the convergence of embedded systems and AI is a key for revival and democratization of AI technologies.
+  Especially, I think the convergence of embedded systems and AI plays a key role for revival of AI technologies.
 
-  I'm doing one term project and studying mathematics and AI topics during this summer vacation.
+  I'm doing a term project and studying mathematics and AI topics during this summer vacation.
 
   Now, I'm looking for a master position in Graduate School and want to study those topics.
 
@@ -101,8 +101,6 @@ content:
 
           This was a chance for me to learn more specific and practical knowledge of my major and could cultivate collaboration ability.
 
-          You can see details at the link.
-
       - layout: left
         border:
         title: Graduation Semester <br>Capstone Design <br>Term Project <hr>
@@ -122,7 +120,7 @@ content:
         description: |
           Our team is implementing a sharing parking lot system using Wi-SUN FAN mesh network.
 
-          Wi-SUN stands for Wireless Smart Utility Network. 
+          Wi-SUN stands for Wireless Smart Utility Network.
           
           Wi-SUN is the IPv6 sub-GHz mesh network technology for smart city and smart utility applications.
 
@@ -151,7 +149,6 @@ content:
 
           It was also a great chance for me to get several interesting ideas.
 
-          You can see details at the link.
 
       - layout: left
         boarder:
@@ -202,7 +199,7 @@ content:
           I learned not only traditional subjects such as algorithm, operation system, computer architecture but also
           artificial intelligence, machine learning and computer vision that became more important in the 4th industrial revolution.
 
-          So I can get methodical knowledges of major.
+          So I can learn methodical knowledges of CSE.
           
 
   - title: A Little More About Me
