@@ -107,7 +107,7 @@ content:
         border:
         title: Graduation Semester <br>Capstone Design <br>Term Project <hr>
         sub_title: Wi-SUN FAN mesh network based <br>Sharing Parking Lot
-        caption: (2023.04 ~)
+        caption: (2023.05 ~)
         link: 
         link_text: GitHub Link
         # additional_links: # (optional)
@@ -127,8 +127,6 @@ content:
           Wi-SUN is the IPv6 sub-GHz mesh network technology for smart city and smart utility applications.
 
           I am a team leader and do network programming and embedded board programming.
-
-          You can see details at the link.
 
 
   - title: Experience
