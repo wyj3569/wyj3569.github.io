@@ -55,16 +55,14 @@ darkmode: true
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/photo.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello? My name is Jung Woo Young.
-  
-  I'm currently a senior student in Pusan Nat' University and my major is Computer Sciences and Engineering.
 
-  I'm interested in topics like convergence of Artificial Intelligence and other various systems.
-  Especially, I think the convergence of embedded systems and AI plays a key role for revival of AI technologies.
+  I'm currently a senior student in Pusan National University and my major is Computer Sciences and Engineering.
 
-  I'm doing a term project and studying mathematics and AI topics during this summer vacation.
+  I'm interested in Artificial Intelligence and Machine Learning topics.
 
-  Now, I'm looking for a master position in Graduate School and want to study those topics.
+  Now, I'm doing one term project and studying mathematics and AI topics during this summer vacation.
+
+  I'm looking for a master position in Graduate School.
 
   Thank you for reading my self-introduction.
 
@@ -73,11 +71,11 @@ content:
   - title: Project # Title for the section
     layout: list # (options: list, text)
     content:
-      - layout: left # (options: left, right, top, top-right, top-middle)(default: left)
+      - layout: top-middle # (options: left, right, top, top-right, top-middle)(default: left)
         border: # Value of `weak` will display a weak border below this item. 
                           # Any other value (or no value) means no border will be displayed
-        title: 2022 IoT-X <br>Capstone Design <br>Competition <hr>  # (eg. Company or Project name)
-        sub_title: UWB based <br>indoor real-time location tracking <br>and calling system
+        title: IoT-X Capstone Design Competition  # (eg. Company or Project name)
+        sub_title: UWB based indoor real-time location tracking and calling system
         caption: (2022.05 ~ 2022.10)
         link: https://github.com/wyj3569/IGO       # (eg. https://sproogen.github.io/modern-resume-theme)(optional)
         link_text: GitHub Link               # (optional: without this link will show URL as link text)
@@ -91,20 +89,20 @@ content:
         quote: >
 
         description: | # this will include new lines to allow paragraphs
-          Our team implemented a system named "IGO" that is tracking real-time indoor location and can call between medics and patients.
+# Our team implemented a system named “IGO” that is tracking real-time indoor location and can call between medics and patients.
 
-          It was implemented by various systems such as Android, Django and devices like Arduino and UWB.
+# It was implemented by various systems such as Android, Django and devices like Arduino and UWB.
 
-          I was a software project manager and did back-end server programming.
+# I was a software project manager and did back-end server programming.
 
-          Our team got an excellence prize at this competition.
+# Our team got an excellence prize at this competition.
 
-          This was a chance for me to learn more specific and practical knowledge of my major and could cultivate collaboration ability.
+# This was a chance for me to learn more specific and practical knowledge of my major and could cultivate collaboration ability.
 
-      - layout: left
+      - layout: top-middle
         border:
-        title: Graduation Semester <br>Capstone Design <br>Term Project <hr>
-        sub_title: Wi-SUN FAN mesh network based <br>Sharing Parking Lot
+        title: Graduation Semester Capstone Design Term Project
+        sub_title: Wi-SUN FAN mesh network based Sharing Parking Lot
         caption: (2023.05 ~)
         link: 
         link_text: GitHub Link
@@ -118,21 +116,21 @@ content:
         quote: >
           
         description: |
-          Our team is implementing a sharing parking lot system using Wi-SUN FAN mesh network.
+# Our team is implementing a sharing parking lot system using Wi-SUN FAN mesh network.
 
-          Wi-SUN stands for Wireless Smart Utility Network.
-          
-          Wi-SUN is the IPv6 sub-GHz mesh network technology for smart city and smart utility applications.
+# Wi-SUN stands for Wireless Smart Utility Network.
 
-          I am a team leader and do network programming and embedded board programming.
+# Wi-SUN is the IPv6 sub-GHz mesh network technology for smart city and smart utility applications.
+
+# I am a team leader and do network programming and embedded board programming.
 
 
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         boarder:
-        title: 2022 <br>Engineering Education <br>FESTA <hr>
+        title: 2022 Engineering Education FESTA
         sub_title: Judgement Activity
         caption: (2022.11)
         link: https://www.youtube.com/channel/UCKzV6rwWuevs-7yhIeb9fHw
@@ -140,19 +138,16 @@ content:
         quote: >
           
         description: |
-          This is a festival for student engineers which was held at Ilsan Kintex.
-
-          The people who won a high-grade prize at '2022 IoT-X Capstone Design Competition' 
-          got a chance to participate in this festival as a judgement.
-
-          There were many interesting and innovative works and many passionate students.
-
-          It was also a great chance for me to get several interesting ideas.
+# This is a festival for student engineers which was held at Ilsan Kintex.
+# The people who won a high-grade prize at '2022 IoT-X Capstone Design Competition' 
+# got a chance to participate in this festival as a judgement.
+# There were many interesting and innovative works and many passionate students.
+# It was also a great chance for me to get several interesting ideas.
 
 
-      - layout: left
+      - layout: top-middle
         boarder:
-        title: LG Aimers <hr>
+        title: LG Aimers
         sub_title: LG group's AI Education
         caption: (2023.07 ~)
         link: https://www.lgaimers.ai/
@@ -160,11 +155,9 @@ content:
         quote: >
           
         description: |
-          I always want to learn more practical knowledge about AI and I got a chance to participate in 'LG Aimers' program.
-
-          This program is served by LG, one of the largest manufacturing company in Republic of Korea.
-
-          I can learn about several AI topics like supervised learning, reinforcement learning, deep learning etc.
+# I always want to learn more practical knowledge about AI and I got a chance to participate in 'LG Aimers' program.
+# This program is served by LG, one of the largest manufacturing company in Republic of Korea.
+# I can learn about several AI topics like supervised learning, reinforcement learning, deep learning etc.
           
 
   - title: Certificate
@@ -194,12 +187,6 @@ content:
         quote: >
           
         description: | 
-          As I mentioned at self-introduction, my major is CSE.
-
-          I learned not only traditional subjects such as algorithm, operation system, computer architecture but also
-          artificial intelligence, machine learning and computer vision that became more important in the 4th industrial revolution.
-
-          So I can learn methodical knowledges of CSE.
           
 
   - title: A Little More About Me
