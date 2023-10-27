@@ -58,14 +58,15 @@ about_content: | # this will include new lines to allow paragraphs
 
   I'm currently a senior student in Pusan National University and my major is Computer Sciences and Engineering.
 
-  I'm interested in Artificial Intelligence and Machine Learning topics.
+  I am interested in the convergence of computer networking and artificial intelligence,
+  particularly in next-generation wireless communication and AIoT technologies. 
+  
+  I have experience working on IoT-related projects during my undergraduate and completed my graduation project
+  using Wi-SUN FAN network.
 
-  Now, I'm doing one term project and studying mathematics and AI topics during this summer vacation.
-
-  I'm looking for a master position in Graduate School.
+  I would like to conduct research on applying artificial intelligence to communication, computer networking and IoT.
 
   Thank you for reading my self-introduction.
-
 
 content:
   - title: Project # Title for the section
@@ -103,7 +104,7 @@ content:
         border:
         title: Graduation Semester Capstone Design Term Project
         sub_title: Wi-SUN FAN mesh network based Sharing Parking Lot
-        caption: (2023.05 ~)
+        caption: (2023.05 ~ 2023.11)
         link: 
         link_text: GitHub Link
         # additional_links: # (optional)
@@ -142,23 +143,7 @@ content:
 # The people who won a high-grade prize at '2022 IoT-X Capstone Design Competition' 
 # got a chance to participate in this festival as a judgement.
 # There were many interesting and innovative works and many passionate students.
-# It was also a great chance for me to get several interesting ideas.
-
-
-      - layout: top-middle
-        boarder:
-        title: LG Aimers
-        sub_title: LG group's AI Education
-        caption: (2023.07 ~)
-        link: https://www.lgaimers.ai/
-        link_text: Link
-        quote: >
-          
-        description: |
-# I always want to learn more practical knowledge about AI and I got a chance to participate in 'LG Aimers' program.
-# This program is served by LG, one of the largest manufacturing company in Republic of Korea.
-# I can learn about several AI topics like supervised learning, reinforcement learning, deep learning etc.
-          
+# It was also a great chance for me to get several interesting ideas.    
 
   - title: Certificate
     layout: list
@@ -192,10 +177,10 @@ content:
   - title: A Little More About Me
     layout: text
     content: |
-      I think It's important to go right way though it takes a lot of time.
-
-      I'm a person who decides carefully, but once I make a decision, I'll never give up and can do it all days.
-
+      I believe that it's important to take the right path, even if it takes a lot of time. 
+      
+      I'm someone who makes decisions very carefully, but once I've made a decision, I never give up and can work on it all day long. 
+      
       Thank you for reading my CV.
 
 
