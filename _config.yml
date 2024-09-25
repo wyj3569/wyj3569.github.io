@@ -6,14 +6,11 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Jung Woo Young
+name: JUNG WOO YEONG
 title: Curriculum Vitae
 
 email: wyjung0731@gmail.com
 email_title: Email
-
-# phone: +82 10-7473-3569
-# phone_title: Phone
 
 website: https://github.com/wyj3569
 website_title: GitHub
@@ -56,15 +53,13 @@ darkmode: true
 about_profile_image: assets/images/photo.jpg
 about_content: | # this will include new lines to allow paragraphs
 
-  I'm currently a senior student in Pusan National University and my major is Computer Sciences and Engineering.
+  I studied in Pusan National University and my major is Computer Science and Engineering.
 
   I am interested in the convergence of computer networking and artificial intelligence,
-  particularly in next-generation wireless communication and AIoT technologies. 
+  particularly in next-generation wireless communication and AIoT technologies.
   
   I have experience working on IoT-related projects during my undergraduate and completed my graduation project
   using Wi-SUN FAN network.
-
-  I would like to conduct research on applying artificial intelligence to communication, computer networking and IoT.
 
   Thank you for reading my self-introduction.
 
@@ -77,7 +72,7 @@ content:
                           # Any other value (or no value) means no border will be displayed
         title: IoT-X Capstone Design Competition  # (eg. Company or Project name)
         sub_title: UWB based indoor real-time location tracking and calling system
-        caption: (2022.05 ~ 2022.10)
+        caption: (2022.06 ~ 2022.10)
         link: https://github.com/wyj3569/IGO       # (eg. https://sproogen.github.io/modern-resume-theme)(optional)
         link_text: GitHub Link               # (optional: without this link will show URL as link text)
         # additional_links: # (optional)
@@ -104,7 +99,7 @@ content:
         border:
         title: Graduation Semester Capstone Design Term Project
         sub_title: Wi-SUN FAN mesh network based Sharing Parking Lot
-        caption: (2023.05 ~ 2023.11)
+        caption: (2023.04 ~ 2023.11)
         link: https://github.com/pnucse-capstone/capstone-2023-1-32
         link_text: GitHub Link
         # additional_links: # (optional)
@@ -152,13 +147,29 @@ content:
       title: Engineer Big Data Analysis
       sub_title: 
       caption: (2023.07)
-      link: https://drive.google.com/file/d/17CVWnDekaMferuChmmjDixhQ84YzYSU9/view?usp=sharing
-      link_text: Link
       quote: >
         
       description: |
         
+    - layout: top-middle
+      title: Engineer Information Processing
+      sub_title: 
+      caption: (2024.06)
+      quote: >
 
+    - layout: top-middle
+      title: SQL Developer
+      sub_title: 
+      caption: (2024.06)
+      quote: >
+        
+      description: |
+
+    - layout: top-middle
+      title: OPIc Intermediate High
+      sub_title: 
+      caption: (2024.09)
+      quote: >
 
   - title: Education
     layout: list
